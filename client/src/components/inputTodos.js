@@ -2,7 +2,6 @@ import React, {Fragment, useState} from 'react';
 
 const InputTodo = () => {
     const {descritpion, setDescription} = useState("");
-    const change = event => () => setDescription( () => event.target.value)
     const onSubmitForm = async e => {
         e.preventDefault();
         console.log(e)
